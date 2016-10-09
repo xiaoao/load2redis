@@ -5,6 +5,29 @@
 load mysql data to redis by sql query
 
 
+```
+-u mysql user
+
+-p mysql password
+
+-s mysql server (localhost:3306)
+
+-d mysql database
+
+-q your sql 
+
+-rs redis server (localhost:6379)
+
+-rp redis password 
+
+-ds redis data structure
+
+-size the count of goroutines
+
+
+```
+
+
 ##build for every platform
 ```
 gox 
